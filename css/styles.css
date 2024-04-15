@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+  }
+  header, section, footer, nav, article, figure, figcaption {
+    display: block;
+  }
+  body {
+    color: #666666;
+    background-color: #ffffff;
+    background-image: url("../assets/images/dark-wood.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  div.container {
+    width: 950px;
+    margin: 5px auto;
+    background-color: #fff5e6;
+  }
+  .content {
+    /* box-sizing: border-box; */
+    line-height: 1.4em;
+    padding: 10px;
+  }
+  header, nav, footer {
+    background-color: #cc7a00;
+    color: #ffffff;
+    /* height: 160px; */
+    /* background-image: url("images/header.jpg"); */
+  }
+
+/* Style for the unordered list */
+#nav ul {
+    list-style-type: none; /* Remove bullet points */
+    overflow: hidden; /* Hide overflowing elements */
+}
+
+/* Style for each list item */
+#nav ul li {
+    float: left; /* Float each list item to create horizontal layout */
+}
+
+/* Style for the links */
+#nav ul li a {
+    display: block;
+    color: rgb(245, 119, 1); /* Link text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding around the links */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Change link color on hover */
+#nav ul li a:hover {
+    background-color: #111; /* Darken background color on hover */
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 10px;
+  text-transform: uppercase;
+  color: darkred;
+}
+.img-centre {
+  display: block;
+  margin: 5px auto;
+  border: 2px solid black;
+  padding: 2px;
+}
+audio, video {
+  display: block;
+  margin: 10px auto;
+}
+table {
+  width: 800px;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+table td, table th {
+  border: 1px groove black;
+  padding: 2px 5px;
+  background-color: #f4dab7;
+}
+table th, tfoot td {
+  text-transform: uppercase;
+  background-color: #b58c56;
+  color: #f4dab7;
+}
+dt {
+  font-weight: bold;
+}
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+fieldset {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid #b58c56;
+  background-color: #f4dab7;
+}
+legend {
+  font-style: italic;
+  color: #f4dab7;
+  ;
+  margin: 0 10px;
+  padding: 0 5px;
+  background-color: #b58c56;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  border: 0px solid #f4dab7;
+  padding: 5px;
+  background-color: #b58c56;
+  color: #ffffff;
+  
+}
+input[type="submit"]:hover {
+  background-color: #724311;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #0f0287; 
+}
+
+
+.random-text {
+  margin-bottom: 20px; 
+}
+
+
+figure {
+  margin: 0;
+  text-align: center; 
+}
+
+img {
+  max-width: 100%; 
+  height: 50%; 
+  width: 20%;
+}
